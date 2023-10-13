@@ -6,24 +6,24 @@ Boolean Class 104 exercise: First DB Template
 
 id: PRIMARY_KEY, UNIQUE, INT, NOTNULL, AUTO_INCREMENT,
 
-Brand: VARCHAR(10), NOTNULL //es: Mercedes-Benz
+Brand: VARCHAR(10), NOTNULL 
 
-Model: VARCHAR(50), NOTNULL //es: Coupè AMG Line GTronic
+Model: VARCHAR(50), NOTNULL 
 
-Fuel_type: VARCHAR(10), NOTNULL //es: GPL, diersel, gas
+Fuel_type: VARCHAR(10), NOTNULL //es diesel, electric, ecc
 
-Km: FLOAT(5, 3), NULL //es: 30,000 Km
+Km: FLOAT(5, 3), NULL 
 
 Color: VARCHAR(10), NULL
 
-Gearbox: VARCHAR(10), NOTNULL //es: manual, auto
+Gearbox: VARCHAR(10), NOTNULL //es automatic or manual
 
-Horse_power: SMALLINT, NULL //es: 204 CV
+Horse_power: SMALLINT, NULL 
 
 Year: YEAR, NULL
 
 Description: TEXT, NULL
 
-Status: VARCHAR(20), NULL //es: Like new, good, minor scratches, ecc...
+Status: VARCHAR(20), NULL //es new, used, crashed, ecc
 
-Price: DECIMAL(5, 3), NULL //es: 20.000€
+Price: DECIMAL(5, 3), NULL 
