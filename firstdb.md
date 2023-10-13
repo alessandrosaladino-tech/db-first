@@ -10,6 +10,8 @@ Brand: VARCHAR(10), NOTNULL
 
 Model: VARCHAR(50), NOTNULL 
 
+Images: VARCHAR(30), NULL
+
 Fuel_type: VARCHAR(10), NOTNULL //es diesel, electric, ecc
 
 Km: FLOAT(5, 3), NULL 
@@ -27,3 +29,5 @@ Description: TEXT, NULL
 Status: VARCHAR(20), NULL //es new, used, crashed, ecc
 
 Price: DECIMAL(5, 3), NULL 
+
+Emission: VARCHAR(3), NULL //es classe 3, classe 4, ecc
