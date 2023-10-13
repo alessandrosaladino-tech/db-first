@@ -4,30 +4,30 @@ Boolean Class 104 exercise: First DB Template
 
 ## DATABASE NAME: used_cars
 
-id: PRIMARY_KEY, UNIQUE, INT, NOTNULL, AUTO_INCREMENT,
+id | PRIMARY_KEY, UNIQUE, INT, NOTNULL, AUTO_INCREMENT,
 
-Brand: VARCHAR(10), NOTNULL 
+Brand | VARCHAR(10), NOTNULL 
 
-Model: VARCHAR(50), NOTNULL 
+Model | VARCHAR(50), NOTNULL 
 
-Images: VARCHAR(30), NULL
+Images | VARCHAR(30), NULL
 
-Fuel_type: VARCHAR(10), NOTNULL //es diesel, electric, ecc
+Fuel_type | VARCHAR(10), NOTNULL //es diesel, electric, ecc
 
-Km: FLOAT(5, 3), NULL 
+Km | FLOAT(5, 3), NULL 
 
-Color: VARCHAR(10), NULL
+Color | VARCHAR(10), NULL
 
-Gearbox: VARCHAR(10), NOTNULL //es automatic or manual
+Gearbox | VARCHAR(10), NOTNULL //es automatic or manual
 
-Horse_power: SMALLINT, NULL 
+Horse_power | SMALLINT, NULL 
 
-Year: YEAR, NULL
+Year | YEAR, NULL
 
-Description: TEXT, NULL
+Description | TEXT, NULL
 
-Status: VARCHAR(20), NULL //es new, used, crashed, ecc
+Status | VARCHAR(20), NULL //es new, used, crashed, ecc
 
-Price: DECIMAL(5, 3), NULL 
+Price | DECIMAL(5, 3), NULL 
 
-Emission: VARCHAR(3), NULL //es classe 3, classe 4, ecc
+Emission | VARCHAR(3), NULL //es classe 3, classe 4, ecc
